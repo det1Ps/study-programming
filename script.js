@@ -688,19 +688,76 @@
 //     document.querySelector('.input').value = '';
 // });
 
-function submitForm() {
-    const input = document.querySelector('.input').value;
+// function submitForm() {
+//     const input = document.querySelector('.input').value;
 
-    if (!input) {
-        return;
-    }
+//     if (!input) {
+//         return;
+//     }
 
-    document.querySelector('.panel').innerText = input;
-    document.querySelector('.input').value = '';
-}
+//     document.querySelector('.panel').innerText = input;
+//     document.querySelector('.input').value = '';
+//     document.querySelector('.notification').classList.remove('notification_hidden');
+//     console.log(document.querySelector('.notification').getAttribute('class'));
+//     const obj = JSON.stringify({
+//         text: input
+//     });
 
-function inputChanges(e) {
-    if (e.code == 'Enter') {
-        submitForm();
-    }
-}
+//     localStorage.setItem('text', obj);
+// }
+
+// function inputChanges(e) {
+//     if (e.code == 'Enter') {
+//         submitForm();
+//     }
+// }
+
+
+// Упражнение 22
+
+// const el1 = document.querySelectorAll('.one')[0].innerText;
+// const el2 = document.querySelectorAll('.one')[1].innerText;
+// const el3 = document.querySelector('#two').innerText;
+// const el31 = document.getElementById('two').innerText;
+// const el4 = document.querySelector('[user-id="4"]').innerText;
+
+// console.log(el1);
+// console.log(el2);
+// console.log(el31);
+// console.log(el4);
+
+// const buttonText = 'Click me!';
+// const newElement = document.createElement('div');
+// newElement.classList.add('test-new');
+// newElement.innerHTML = `<button class="button">${buttonText}</button>`;
+
+// document.querySelector('.test').appendChild(newElement);
+
+
+// Local storage
+
+// localStorage.setItem('tocken', 'gdsfgsfdg');
+// localStorage.setItem('id', 1);
+
+// console.log(localStorage.getItem('id'));
+
+// JSON
+
+// const obj = JSON.parse('{ "a": 1 }');
+// const newObj = JSON.stringify(obj);
+// console.log(obj.a);
+// console.log(newObj);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
